@@ -1,0 +1,584 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.buy{
+    margin-right: 10px; 
+    height: 32px; 
+    width: 95px; 
+    background-color: #82b440; color: white; 
+    border: 0px; border-radius: 5px;
+}
+.buy:hover{
+
+background-color: #79a73d;
+
+}
+.main{
+    width: 100%;
+    height: 1800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image:url("sekiller/photo1672391414.jpeg")
+    
+
+}
+.yarpaq{
+    position: absolute;
+    height: 130px;
+    margin-left: 150px;
+}
+.chocodiv{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    margin-left: 650px;
+    
+}
+.choco{
+    position: absolute;
+    height: 400px;
+    
+}
+.mastercontainer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+.masterpiece{
+    font-size: 60px;
+    color: #c6a362;
+    z-index: 1;
+    
+}
+.dolcinocontainer{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    justify-content: center;
+}
+.dolcino{
+    
+    font-style: bold;
+    font-size: 80px;
+    color: #000000;
+    letter-spacing: 2px;
+    z-index: 1;
+    text-align: center;
+}
+.xett1{
+    margin-left: 560px;
+    margin-top: 10px;
+}
+.choco2{
+    position: absolute;
+    height: 550px;
+    margin-top: 100px;
+    
+}
+.paragraf{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    width: 100%;
+    margin-top: 30px;
+}
+.pr{
+    width: 950px;
+    text-align: center;
+   color: #424242;
+    font-size: 25px;
+}
+.container{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.item{
+    width: 25%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    
+}
+.item-1{
+    justify-content: right;
+}
+.discover{
+    margin-right: 15px;
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 12px;
+    border: 0px;
+
+    transition-property: all;
+    transition-duration: 0.5s;
+
+}
+.discover:hover{
+    background-color: #c7a260;
+    border-color: #c7a260;
+}
+.shop{
+    margin-left: 15px;
+    height: 50px;
+    width: 200px;
+    letter-spacing: 5px;
+    font-size: 12px;
+    border-color: #c7a260;
+    color: #c7a260;
+
+transition-property: all;
+transition-duration: 0.5s;
+
+}
+.shop:hover{
+    background-color: #c7a260;
+    color: white;
+}
+.con{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.it{
+    margin-left: 40px;
+width: 30%;
+height: 333px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+transition-duration: 0.5s;
+}
+.it :hover{ 
+        color: #c7a260;
+}
+.it img{
+
+position: relative;
+
+}
+
+
+.s1{
+    height: 200px;
+    width: 350px;
+   position: relative;
+bottom: 30px;
+transition-property: all;
+transition-duration: 0.3s;
+}
+
+.s1:hover{
+bottom: 40px;
+
+}
+
+.lux{
+    font-size: 30px; color: black;
+ text-decoration: none;
+}
+
+.orta{
+    width: 100%;
+    height: 500px;
+    background-image: url("sekiller/landing-2-img-1.jpg");
+}
+
+.taste{
+    display: flex;
+    justify-content: center;
+}
+.taste h1{
+    margin-top: 160px;
+    font-size: 85px;
+    width: 1000px;
+    text-align: center;
+    font-style: italic;
+}
+
+.second{
+    width: 100%;
+    height: 1000px;
+    background-image: url("sekiller/photo1672391414.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ready{
+    color: #000000;
+    font-size: 60px;
+    letter-spacing: 8px;
+}
+.menyu1{
+    height: 300px;
+    margin-top: 120px;
+    margin-left: 60px;
+}
+.menyu2{
+    position: relative;
+    height: 350px;
+    right: 107px;
+    top: 35px;
+}
+.menyu3{
+    position: relative;
+    height: 420px;
+    width: 350px;
+    right: 200px;
+    z-index: 2;
+}
+.menyu4{
+    position: relative;
+    height: 350px;
+    bottom:350px;
+    left: 700px;
+    z-index: 1;
+}
+.menyu5{
+    position: relative;
+    height: 300px;
+    bottom:325px;
+    left: 600px;
+}
+.dvideo{
+    width: 100%;
+    height: 500px;
+    background-image: url("sekiller/2_Y2FuZHkgcG91cmVkIGNob2NvbGF0ZQ_AdobeExpress.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.celegant{
+    width: 100%;
+    height: 600px;
+    background-image: url("sekiller/photo1672391414.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 40px;
+    
+}
+.ielegant{
+    width: 20%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 100px;
+    
+}
+.eleganth5{
+    letter-spacing: 1.5px;
+    color: #000000;
+}
+.eleganth5:hover{
+    color: #c8a25f;
+}
+.elegantp{
+    text-align: center;
+    font-family: 'Cormorant', serif;
+    font-style: italic;
+    font-size: 20px;
+    width: 240px;
+}
+
+.amazing{
+    width: 100%;
+    height: 400px;
+    background-color: #e9e9eb;
+}
+.amazing h1{
+    font-family: Montserrat,sans-serif;
+    letter-spacing: .08em;
+    font-weight: 600;
+    padding-top: 80px;
+    padding-left: 100px;
+    color: #000000;
+}
+
+.line1{
+    margin-top: 15px;
+    margin-left: 93px;
+}
+
+.amazing p{
+    font-family: 'Cormorant', serif;
+    color: black;
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 95px;
+    width: 450px;
+}
+.view{
+    position: relative;
+    left: 95px;
+    bottom: 280px;
+    color: #c6a362;
+    text-decoration: underline;
+    font-size: 13px;
+    line-height: 2em;
+    letter-spacing: .19em;
+    font-weight: 500;
+    font-family: "Montserrat";
+}
+
+.orange{
+    position: relative;
+    height: 600px;
+    left: 500px;
+    bottom: 400px;
+    transition-property: all;
+    transition-duration: 0.3s;
+
+}
+.orange:hover{
+
+bottom: 410px;
+
+}
+
+.dreqemler{
+
+width: 100%;
+height: 800px;
+background-image: url("sekiller/photo1672391414.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.creqemler{
+    position: relative;
+    width: 100%;
+height: 400px;
+top: 200px;
+display: flex;
+justify-content:center;
+column-gap: 20px;
+
+}
+
+.ireqemler{
+
+width: 20%;
+height: 400px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+.ireqemler h1{
+
+    color: #c19d56;
+    font-size: 150px;
+    line-height: 1.2em;
+    font-weight: 300;
+    font-family: Cormorant,serif;
+    font-style: italic;
+
+}
+
+.ireqemler h5{
+
+    font-size: 18px;
+    line-height: 1.33em;
+    letter-spacing: .06em;
+    font-weight: 600;
+    font-family: Montserrat,sans-serif;
+    text-transform: uppercase;
+
+}
+
+.ireqemler p{
+
+    font-family: Cormorant,serif;
+    font-size: 21px;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+    font-style: italic;
+
+}
+
+.lovely{
+
+    width: 100%;
+    height: 400px;
+    background-color: #e9e9eb;
+
+}
+
+.lovelymenu{
+
+height: 550px;
+width: 550px;
+position: relative;
+bottom: 80px;
+left: 100px;
+
+transition-property: all;
+transition-duration: 0.3s;
+
+}
+
+.lovelymenu:hover{
+
+bottom: 90px;
+
+}
+
+.dlovely{
+
+width: 40%;
+height: 400px;
+position: relative;
+left: 750px;
+bottom: 550px;
+
+}
+
+.dlovely h3{
+
+    color: black;
+    font-size: 40px;
+    letter-spacing: .08em;
+    font-weight: 600;
+    font-family: Montserrat,sans-serif;
+    padding-top: 70px;
+
+}
+
+.dlovely p{
+
+color: #000;
+font-family: Cormorant;
+    font-size: 24px;
+    line-height: 1.42em;
+    font-style: italic;
+    font-weight: 400;
+
+}
+
+.dlovely a{
+
+    color: #c19d56;
+    font-size: 13px;
+    line-height: 2em;
+    letter-spacing: .19em;
+    font-weight: 500;
+    font-family: Montserrat,sans-serif;
+
+}
+
+.final{
+
+    width: 100%;
+    height: 700px;
+    background-image: url("sekiller/photo1672391414.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    }
+
+.cfinal{
+position: relative;
+top: 120px;
+width: 75%;
+height: 500px;
+display: flex;
+flex-direction: column;
+align-items: center;
+left: 150px;
+}
+
+.cfinal h3{
+
+    font-family: "Great Vibes";
+    
+    color: rgb(193, 157, 86);
+    
+    font-size: 50px;
+    margin-top: 100px;
+
+    
+
+}
+
+.cfinal h1{
+
+    font-family: Montserrat;
+    color: rgb(0, 0, 0);
+    line-height: 66px;
+    letter-spacing: 6px;
+    font-weight: 600;
+    font-size: 56px;
+
+}
+
+.cfinal p{
+
+    font-family: Cormorant;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+    text-align: center;
+
+}
+
+.cfinal button{
+
+background-color: #c19d56;
+color: white;
+
+}
+
+.cfinal button:hover{
+
+background-color: white;
+color: #c19d56;
+
+}
+
+.fyarpaq{
+
+height: 130px;
+position: relative;
+right: 1000px;
+top: 450px;
+
+}
+
+.fyarpaq2{
+
+height: 130px;
+position: relative;
+right: 1000px;
+top: 550px;
+
+}
+
+.fchoco{
+
+height: 550px;
+position: absolute;
+right: 0px;
+top: 6200px;
+
+}
